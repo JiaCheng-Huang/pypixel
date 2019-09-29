@@ -11,7 +11,7 @@ setup(
     version="1.0.0",
     author="Jiacheng Huang",
     author_email="Dylan.JiaCheng.Huang@outlook.com",
-    description="A Image Processing Library",
+    description="A Python Library for Image Processing",
     long_description=long_description,
     long_description_content_type="text/markdown",
     license="MIT",
