@@ -6,6 +6,7 @@ This is a Python image process library
 
 - open and save an Image 
 - show an Image
+- reshape an Image
 - convert RGB to Gray
 - convert RGB to Binary
 
@@ -38,6 +39,13 @@ img.save("filepath")
 ```py
 img = Image.open("filepath")
 img.show()
+```
+
+## Reshape an Image
+
+```py
+img = Image.open("filepath")
+img.reshape([height,width])
 ```
 
 ## Convert to gray
