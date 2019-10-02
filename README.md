@@ -51,7 +51,7 @@ img.reshape([height,width])
 ## Convert to gray
 
 ```py
-img = Image.open("url")
+img = Image.open("filepath")
 img = img.gray()    # default : Float Algorithm
 img = img.gray("F") # Float Algorithm : r*0.3+g*0.59+b*0.11
 img = img.gray("G") # Green Only
@@ -59,6 +59,6 @@ img = img.gray("G") # Green Only
 
 ## Convert to binary
 ```py
-img = Image.open("url")
+img = Image.open("filepath")
 img = img.binary()
 ```
